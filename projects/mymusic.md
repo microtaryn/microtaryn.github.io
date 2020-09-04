@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/youtubeproject.jpg
 title: My Music Channel (Original Compositions)
-permalink: projects/project-1
+permalink: projects/mymusic
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-03
 labels:
