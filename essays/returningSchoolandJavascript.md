@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: My New Sport is JavaScript
+title: Returning to School and JavaScript
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-03
 labels:
   - JavaScript
 ---
 
-<img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
+<img class="cartoon of programmer thinking" src="../images/developer.png">
 
 My first forays into the exotic world of JavaScript began in 2017, when I needed to know just enough JavaScript language to create simple game tutorials for GenCyber Hawaii. At the time, programming was a side hobby: something that I would do when I was done with my other work (i.e. in teaching microbiology) and after I was tired of messing around with the piano and singing. So, while 2017 was uneventful and my GenCyber Hawaii experience went smoothly, JavaScript was a language I never thought about again until now – 2020.
 	So, fast-forward to 2020 and I am now back at school again, this time as a computer science major. My new immediate goal: to complete prerequisites to apply for the MS in CS program at UH Manoa. My reason: increasing my future job opportunities, either as a teacher, or as a software engineer. And in the past two weeks, my resolve has waxed and waned more than twice. The culprit: ICS 314. The language of the course: JavaScript.
