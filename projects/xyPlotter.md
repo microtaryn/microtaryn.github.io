@@ -22,5 +22,5 @@ This makes it easy for someone to utilize Chart.js scatter plot features without
 This is my second project for ICS314 and my first attempt using Chart.js
 
 ## The program
-You can find the code to this program in my Projects folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
+You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
