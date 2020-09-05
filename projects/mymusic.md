@@ -12,7 +12,7 @@ labels:
 summary: Programming computers are great! Composing songs (aka programming musical "code") is fun too! Here is a list of my original song compositions :)
 ---
 ## My Songs
-I have been singing my whole life, but after attending the 2018 Hawaii Songwriting Festival, I was inspired to write songs of my own that I could sing and perform. These songs are mostly for me, my family and friends. But to date, they also represent some of my most significant projects in planning and collaboration. If you want to check them out, here is a playlist: [TE Taryn Originals](https://www.youtube.com/playlist?list=PLY-sWJjgXT81AN9v3nW3O4v-QWKxnlHI)
+I have been singing my whole life, but after attending the 2018 Hawaii Songwriting Festival, I was inspired to write songs of my own that I could sing and perform. These songs are mostly for me, my family and friends. But to date, they also represent some of my most significant projects in planning and collaboration. If you want to check them out, here is a playlist: [TE Taryn Originals](https://www.youtube.com/playlist?list=PLY-sWJjgXT81AN9v3nW3O4v-QWKxnlHI_)
 
 ## Programming's Parallel with Composing
 I am no expert in composing or programming - there is a lot that I want to learn about both. But if you, like me, enjoy some form of music (eg. pop, R&B, reggae, jazz, rock, country, classical, techno etc.) and are looking for some connection between the two, here are some reasons why I think the disciplines are complementary to each other:
