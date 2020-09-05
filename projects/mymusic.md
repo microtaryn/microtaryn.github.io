@@ -11,6 +11,7 @@ labels:
   - singing
 summary: Programming computers are great! Composing songs (aka programming musical "code") is fun too! Here is a list of my original song compositions :)
 ---
+<img width="300px" style="display:inline" src="../images/singingPiano.jpeg">
 ## My Songs
 I have been singing my whole life, but after attending the 2018 Hawaii Songwriting Festival, I was inspired to write songs of my own that I could sing and perform. These songs are mostly for me, my family and friends. But to date, they also represent some of my most significant projects in planning and collaboration. If you want to check them out, here is a playlist: [TE Taryn Originals](https://www.youtube.com/playlist?list=PLY-sWJjgXT81AN9v3nW3O4v-QWKxnlHI_)
 
