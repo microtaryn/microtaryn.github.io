@@ -19,4 +19,4 @@ Everyone takes out a loan at some point in their loves. Credit cards, in a sense
 You can find the code to this program in [Loan Calculator]("https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/loanCalculator") or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/fLhv640k/)
 
 ## The math
-The mathematical formula used was:
+The mathematical formula used was
