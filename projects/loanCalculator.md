@@ -24,4 +24,4 @@ You can find the code to this program in my Projects folder or run it yourself i
 
 The math behind the getMonths() function is based on the following:
 
-<img width="500" class="cartoon of programmer thinking" src="../images/formula.png">
+<img width="300" class="cartoon of programmer thinking" src="../images/formula.png">
