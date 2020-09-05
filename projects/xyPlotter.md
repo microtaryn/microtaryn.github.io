@@ -13,6 +13,7 @@ summary: Create an XY plot from values entered into a text area! The plot uses t
 ---
 <img width="500" class="cartoon of programmer thinking" src="../images/ecoli.png">
 # XY Plotter
+
 ## The idea
 Chart.js is an open-source JavaScript library that makes it easy to produce charts on a webpage.
 With my interface, the user can simply enter in ten XY pairs and click on "Make chart" to make a nice scatter plot.
