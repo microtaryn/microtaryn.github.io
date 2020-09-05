@@ -11,7 +11,7 @@ labels:
   - HTML
 summary: Calculate the months it will take to pay off that loan. Do you really want to pay just the minimum amount?
 ---
-<img width="40%" style="display:inline" src="../images/loanCalc.png"><img width="40%" style="display:inline" src="../images/brokePiggy.jpg">
+<img width="45%" style="display:inline" src="../images/loanCalc.png"><img width="40%" style="display:inline" src="../images/brokePiggy.jpg">
 
 # Payoff Projector for Loan (Loan Calculator)
 
