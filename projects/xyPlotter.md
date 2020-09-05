@@ -12,6 +12,7 @@ labels:
 summary: Create an XY plot from values entered into a text area! The plot uses the Chart.js library
 ---
 <img width="500" class="cartoon of programmer thinking" src="../images/ecoli.png">
+
 # XY Plotter
 
 ## The idea
