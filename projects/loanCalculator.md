@@ -19,3 +19,9 @@ Everyone takes out a loan at some point in their loves. Credit cards, in a sense
 
 ## The program
 You can find the code to this program in my Projects folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/fLhv640k/)
+
+## The math
+
+The math behind the getMonths() function is based on the following:
+
+<img width="500" class="cartoon of programmer thinking" src="../images/formulajpg">
