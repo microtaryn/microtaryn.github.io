@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <!--
+    This html file makes use of getMonths() function in the monthsLoan.js
+    -->
+    <head>
+        <script type="text/javascript" src="monthsLoan.js">
+        </script>
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded',init);
+            function removeChildren(elem){
+                while (elem.childNodes.length > 0) {
+                    elem.removeChild(elem.childNodes[0]);
+                }
+            }
+            function calcMonths(){
+                //console.log("calcMonths() called");
+                const amountBox = document.getElementById("amount");
+                const borrowedBox = document.getElementById("borrowed");
+                const rateBox = document.getElementById("rate");
+                const answers = document.getElementById("answers");
+                removeChildren(answers);
+                let amount = Number(amountBox.value);
+                let borrowed = Number(borrowedBox.value);
+                let rate = Number(rateBox.value);
+                //console.log(getMonths(amount,borrowed,rate));
+                let months = getMonths(amount,borrowed,rate);
+                // will return NaN if months is an infinite value
+                if (isNaN(months) === true) {
+                    //console.log("Your monthly payment is too small.");
+                    let li = document.createElement("li");
+                    let msg = "That loan payment is so small, it would take forever to pay off the loan";
+                    li.appendChild(document.createTextNode(msg));
+                    answers.appendChild(li);
+                }
+                //months will be a valid number
+                else {
+                    let li= document.createElement("li");
+                    let msg = "The number of months to pay off loan would be " + months.toFixed(2);
+                    li.appendChild(document.createTextNode(msg));
+                    answers.appendChild(li);
+                    let total = months * amount;
+                    msg = "The total amount paid would be $" + total.toFixed(2);
+                    li= document.createElement("li");
+                    li.appendChild(document.createTextNode(msg));
+                    answers.appendChild(li);
+                    let interest = total - borrowed;
+                    msg = "The total interest paid would be $" + interest.toFixed(2);
+                    li= document.createElement("li");
+                    li.appendChild(document.createTextNode(msg));
+                    answers.appendChild(li);   
+                }
+            }
+            function init() {
+                const calculate = document.getElementById("calculate");
+                calculate.addEventListener('click',calcMonths);
+            }
+        </script>
+        <meta charset="UTF-8">
+        <title>Payoff projector for Loan</title>
+    </head>
+    <body>
+        Enter amount you want to pay/month:
+        <input id="amount" type="text">
+        <br>
+        Enter amount you owe:
+        <input id="borrowed" type="text">
+        <br>
+        Enter annual interest rate (in decimal form):
+        <input id="rate" type="text">
+        <br>
+        <br>
+        <button id="calculate">Calculate</button>
+        <ul id="answers"></ul>
+        
+    </body>
+
+</html>
