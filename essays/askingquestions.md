@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 image: images/unhappyCamper_computer.png
-title: Using StackOverflow: Be Prepared Before You Ask
+title: Using StackOverflow, Be Prepared Before You Ask
 permalink: essays/openforumquestions
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-10
