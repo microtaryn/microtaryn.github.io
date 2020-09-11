@@ -32,10 +32,12 @@ In addition, the user cites another question and shows that their question is no
 
 >This is not a duplicate of [Sleep in JavaScript - delay between actions.](https://stackoverflow.com/questions/758688/sleep-in->javascript-delay-between-actions); I want a real sleep in the middle of a function, and >not a delay before a piece of code >executes.
 
-In addition, by phrasing the question in terms of the sleep() function (a commonly used function in multi-threaded languages such as Java), this helps people answering the question to understand the context in which the question is being asked. It shows that the person asking the question understands that JavaScript, being single-threaded, does not behave the same way as Java. But that they are looking for a solution that is similar enough so that they can use JavaScript in this fashion. Although this question was asked 11 years ago, it drew enough interest so that is has been updated to reflect more recent changes in the JavaScript languages (that is, Promises and await).
+By phrasing the question in terms of the sleep() function (a commonly used function in multi-threaded languages such as Java), this helps people answering the question to understand the context in which the question is being asked. It shows that the person asking the question understands that JavaScript, being single-threaded, does not behave the same way as Java. But that they are looking for a solution that is similar enough so that they can use JavaScript in this fashion. Although this question was asked 11 years ago, it drew enough interest so that is has been updated to reflect more recent changes in the JavaScript languages (that is, [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) and [await.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await).
+
+In summary, I imagine that the community of users who asked this question ten years ago have become happy campers. They pointed out an issue that has since been addressed by the developers of JavaScript.
 
 ## A Poor Question
-A poorly worded post started with, “How do I remove objects from a JavaScript associative array?” [link to a poor, albeit popular StackOverflow thread.](https://stackoverflow.com/questions/346021/how-do-i-remove-objects-from-a-javascript-associative-array/346022#346022)The reason why this post is poor is because the example in the question was about an object rather than an array. See his example here:
+A poorly worded post started with, “How do I remove objects from a JavaScript associative array?” [link to a poor, albeit popular StackOverflow thread.](https://stackoverflow.com/questions/346021/how-do-i-remove-objects-from-a-javascript-associative-array/346022#346022) The reason why this post is poor is because the example in the question was about an object rather than an array. See his example here:
 ```js
 var myArray = new Object();
 myArray["firstname"] = "Bob";
@@ -43,3 +45,5 @@ myArray["lastname"] = "Smith";
 myArray["age"] = 25;
 ```
 In fact, it seems the user has mistaken arrays for objects as his object is named myArray. It is clear that the user has not done his homework and his lack of understanding the fundamentals, has resulted in a question that is difficult to answer. There are attempts to answer his question in both ways: some on objects, some on arrays. Other viewers pointed out that removing properties from an object is not the same as removing elements from an array.
+
+Although the user is unlikely to be an unhappy camper, his question caused frustration to many who tried to figure out his intent.
