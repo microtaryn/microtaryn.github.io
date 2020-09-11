@@ -1,6 +1,6 @@
 ---
-layout: project
-type: project
+layout: essay
+type: essay
 image: images/unhappyCamper_computer.png
 title: Using StackOverflow: Be Prepared Before You Ask
 permalink: essays/openforumquestions
