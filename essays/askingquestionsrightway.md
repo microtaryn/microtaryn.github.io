@@ -12,7 +12,8 @@ labels:
 summary: As Eric Raymond warns, be careful what you ask for! Open forums like StackOverflow are great for the novice programmer. But don't ask "novice" questions.
 Or you'll be an unhappy camper.
 ---
-<img width="300" style="display:inline" src="../images/happyProgammer.png">
+<img width="300" style="display:inline" src="../images/happyProgrammer.png">
+
 ## Open Forums are a Different Ball Game
 As an instructor, I often encourage my students to ask questions. I enjoy when my students ask me questions – I get to know what they are thinking and if the question goes beyond the scope of the class, it prompts me to learn more about the subject. But in the context of the World Wide Web, Eric Raymond begs to differ (See his article on “How to Ask Questions The Smart Way.”) Eric Raymond and other prominent programmers have experience with open forums on computer programming such as StackOverflow. On StackOverflow, anyone can ask a question. And, anyone can give an answer. This opens up a metaphorical “can of worms” as the forums quickly become overpopulated with questions on the same topic. Some users of the site, Raymond explains, expect answers to homework questions and for others to solve their research projects for them. Due to this “inappropriate behavior”, it has resulted in growing distaste among StackOverflow’s contributors towards the “naïve” or “elementary” programmer. Thus, to make it possible for a less experienced programmer to ask questions, they should adhere to certain guidelines to get their questions answered successfully. In this essay, I will give one example of a well-worded question on StackOverflow that received positive feedback. I will also share an example of a poorly phrased question.
 
