@@ -1,3 +1,4 @@
+---
 layout: essay
 type: essay
 image: images/unhappyCamper_computer.png
@@ -10,6 +11,7 @@ labels:
   - forum decorum
 summary: As Eric Raymond warns, be careful what you ask for! Open forums like StackOverflow are great for the novice programmer. But don't ask "novice" questions.
 Or you'll be an unhappy camper.
+---
 <img width="300" style="display:inline" src="../images/happyProgrammer.png">
 
 ## Open Forums are a Different Ball Game
