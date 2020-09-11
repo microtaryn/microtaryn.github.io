@@ -1,15 +1,3 @@
----
-layout: essay
-type: essay
-title: Using StackOverflow: Be Prepared Before You Ask
-# All dates must be YYYY-MM-DD format!
-date: 2020-09-10
-labels:
-  - JavaScript
-  - StackOverflow
-  - Forum Decorum
----
-
 <img width="300" style="display:inline" src="../images/happyProgrammer.png">
 
 ## Open Forums are a Different Ball Game
