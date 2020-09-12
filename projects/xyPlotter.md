@@ -43,9 +43,11 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 
 <br>In order to implement Chart.js, the following line must be added to the HTML document:
 
-<code>
+
+```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-</code>
+```
+
 
 <br>The rest of the JavaScript code is in the following &lt;script> element:
 
@@ -105,7 +107,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
         </script>
 ```
 
-<br> We can breakdown the code as follows. The first line causes the **init()** function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, **init()** is called.
+<br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, <b>init()</b> is called.
 
 ```js
 document.addEventListener('DOMContentLoaded',init);
