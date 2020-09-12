@@ -117,12 +117,12 @@ document.addEventListener('DOMContentLoaded',init);
 
 <br> The <b>init()</b> function gets a reference to the button with id="run" and makes it so that clicking on that button causes the <b>getDataAndPlot()</b> function to be called.
 
-```js
+<pre><code>
 function init() {
    const run = document.getElementById("run");
    run.addEventListener("click",getDataAndPlot);
 }
-```
+</code></pre>
 
 <br>The <b>getDataAndPlot()</b> function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a <b>\n</b> and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the <b>removeChildren()</b> function to clear out the previous chart.
 
