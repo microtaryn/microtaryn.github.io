@@ -105,17 +105,22 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 ```
 
 <br> We can breakdown the code as follows. The first line causes the **init()** function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, **init()** is called.
+
 ```js
 document.addEventListener('DOMContentLoaded',init);
 ```
+
 <br> The **init()** function gets a reference to the button with id="run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
+
 ```js
 function init() {
    const run = document.getElementById("run");
    run.addEventListener("click",getDataAndPlot);
 }
 ```
+
 <br>The **getDataAndPlot()** function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a **\n** and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the **removeChildren()** function to clear out the previous chart.
+
 ```js
 function getDataAndPlot() {
    let data1 = [];
@@ -137,9 +142,11 @@ function getDataAndPlot() {
    doChart(data1,label1);
 }
 ```
+
 <br>The **removeChildren()** function will remove all the children from any HTML container element. It is called from **getDataAndPlot()** to clear out any previous chart.
 
 <br> The **doChart()** function is what actually creates the plot using the Chart.js library. The type is set to 'scatter' to create an XY scatter plot.
+
 ```js
 function doChart(data1,label1) {
    let ctx = document.getElementById("myChart").getContext('2d');
@@ -159,3 +166,4 @@ function doChart(data1,label1) {
    });
 }
 ```
+
