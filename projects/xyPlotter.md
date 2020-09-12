@@ -37,7 +37,7 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 <br>Programmers can also download my code (See links to code below) and use XY Plotter as a base webpage, adding additional Chart.js features (e.g. X and Y labels). In this way, XY Plotter can be a starting point for building more complex graphing interfaces fitting user-specific needs.<br>
 
 
-<h3>The program</h3>
+## The program
 
 You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
@@ -171,4 +171,8 @@ function doChart(data1,label1) {
    });
 }
 ```
+
+## Conclusion
+XYPlotter is a useful tool that non-programmers can use to build simple XY scatterplots. Programmers, even the beginning programmer, can take this tool and implement Chart.js functions directly for their specific needs.
+
 
