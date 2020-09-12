@@ -25,7 +25,7 @@ With my webpage interface, a user can simply enter in ten XY pairs and click on 
 <figcaption>Figure 1 - XY Plotter. Users must fill out text areas to generate a label and to enter in their data.</figcaption>
 
 Here is a screenshot of XY Plotter with some data points. Note that users must enter each data point with X and Y values separated by a comma (e.g. X,Y).
-<img width="700"src="../images/XYPlotter-2.png">
+<img width="700" src="../images/XYPlotter-2.png">
 <figcaption>Figure 2 - XY Plotter with example data. Bacteria have an exponential growth phase represented by the mathematical formula, n x 2^g. Thus, each bacterial cell is capable of generating 2 daughter cells asexually via binary fission.</figcaption>
 
 
