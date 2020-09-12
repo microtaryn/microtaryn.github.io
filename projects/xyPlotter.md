@@ -113,7 +113,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 document.addEventListener('DOMContentLoaded',init);
 ```
 
-<br> The **init()** function gets a reference to the button with id="run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
+<br> The <b>init()</b> function gets a reference to the button with id="run" and makes it so that clicking on that button causes the <b>getDataAndPlot()</b> function to be called.
 
 ```js
 function init() {
@@ -122,7 +122,7 @@ function init() {
 }
 ```
 
-<br>The **getDataAndPlot()** function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a **\n** and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the **removeChildren()** function to clear out the previous chart.
+<br>The <b>getDataAndPlot()</b> function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a <b>\n</b> and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the <b>removeChildren()</b> function to clear out the previous chart.
 
 ```js
 function getDataAndPlot() {
@@ -146,9 +146,9 @@ function getDataAndPlot() {
 }
 ```
 
-<br>The **removeChildren()** function will remove all the children from any HTML container element. It is called from **getDataAndPlot()** to clear out any previous chart.
+<br>The <b>removeChildren()</b> function will remove all the children from any HTML container element. It is called from <b>getDataAndPlot()</b> to clear out any previous chart.
 
-<br> The **doChart()** function is what actually creates the plot using the Chart.js library. The type is set to 'scatter' to create an XY scatter plot.
+<br> The <b>doChart()</b> function is what actually creates the plot using the Chart.js library. The type is set to 'scatter' to create an XY scatter plot.
 
 ```js
 function doChart(data1,label1) {
