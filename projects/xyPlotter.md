@@ -110,7 +110,7 @@ function init() {
    run.addEventListener("click",getDataAndPlot);
 }
 ```
-The **getDataAndPlot()** function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a **\n** and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the **removeChildren()** function to clear out the previous chart.
+<br>The **getDataAndPlot()** function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a **\n** and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the **removeChildren()** function to clear out the previous chart.
 ```js
 function getDataAndPlot() {
    let data1 = [];
@@ -132,7 +132,7 @@ function getDataAndPlot() {
    doChart(data1,label1);
 }
 ```
-The **removeChildren()** function will remove all the children from any HTML container element. It is called from **getDataAndPlot()** to clear out any previous chart.
+<br>The **removeChildren()** function will remove all the children from any HTML container element. It is called from **getDataAndPlot()** to clear out any previous chart.
 
 <br> The **doChart()** function is what actually creates the plot using the Chart.js library. The type is set to 'scatter' to create an XY scatter plot.
 ```js
