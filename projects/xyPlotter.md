@@ -105,8 +105,8 @@ document.addEventListener('DOMContentLoaded',init);
 <br> The **init()** function gets a reference to the button with id = "run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
 ```js
 function init() {
-                const run = document.getElementById("run");
-                run.addEventListener("click",getDataAndPlot);
-            }
+   const run = document.getElementById("run");
+   run.addEventListener("click",getDataAndPlot);
+}
 ```
 
