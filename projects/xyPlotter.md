@@ -32,10 +32,12 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 <br>The default setting for Chart.js scatter plots is for onHover() to be on. This gives the scatter plot more interactivity with the user and this feature can be useful in demonstrations (i.e. when pointing out a specific data point) (See Figure 3).
 
 <p><img width="80%" src="../images/XYPlotter-3.png"></p><figcaption>Figure 3 - XY Plotter showing onHover() over a data point.
-  
+ 
+ 
 <br>Programmers can also download my code (See links to code below) and use XY Plotter as a base webpage, adding additional Chart.js features (e.g. X and Y labels). In this way, XY Plotter can be a starting point for building more complex graphing interfaces fitting user-specific needs.
 
 ## The program
+
 You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
 <br>In order to implement Chart.js, the following line must be added to the HTML document:
@@ -43,7 +45,9 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 ```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 ```
+
 <br>The rest of the JavaScript code is in the following &lt;script> element:
+
 ```js
 <script type="text/javascript">
             document.addEventListener('DOMContentLoaded',init);
@@ -99,6 +103,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
             }
         </script>
 ```
+
 <br> We can breakdown the code as follows. The first line causes the **init()** function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, **init()** is called.
 ```js
 document.addEventListener('DOMContentLoaded',init);
