@@ -102,11 +102,33 @@ The rest of the JavaScript code is in the following &lt;script> element:
 ```js
 document.addEventListener('DOMContentLoaded',init);
 ```
-<br> The **init()** function gets a reference to the button with id = "run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
+<br> The **init()** function gets a reference to the button with id="run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
 ```js
 function init() {
    const run = document.getElementById("run");
    run.addEventListener("click",getDataAndPlot);
+}
+```
+The **getDataAndPlot()** function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a **\n** and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the **removeChildren()** function to clear out the previous chart.
+```js
+function getDataAndPlot() {
+   let data1 = [];
+   const label = document.getElementById("label");
+   let label1 = label.value.trim();
+   const myChart = document.getElementById("myChart");
+   removeChildren(myChart);
+   const textarea = document.getElementById("textarea");
+   let xydata = textarea.value.split("\n");
+   //console.log(xydata);
+   for (let i = 0; i < xydata.length; i++) {
+        let splitValue = xydata[i].split(",");
+        let row = {};
+        row["x"] = Number(splitValue[0]);
+        row["y"] = Number(splitValue[1]);
+        data1.push(row);
+   }
+   //console.log(data1);
+   doChart(data1,label1);
 }
 ```
 
