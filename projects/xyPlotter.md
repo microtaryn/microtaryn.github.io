@@ -43,9 +43,9 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 
 <br>In order to implement Chart.js, the following line must be added to the HTML document:
 
-```js
+<code>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-```
+</code>
 
 <br>The rest of the JavaScript code is in the following &lt;script> element:
 
