@@ -34,7 +34,8 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 <p><img width="80%" src="../images/XYPlotter-3.png"></p><figcaption>Figure 3 - XY Plotter showing onHover() over a data point.
  
  
-<br>Programmers can also download my code (See links to code below) and use XY Plotter as a base webpage, adding additional Chart.js features (e.g. X and Y labels). In this way, XY Plotter can be a starting point for building more complex graphing interfaces fitting user-specific needs.
+<br>Programmers can also download my code (See links to code below) and use XY Plotter as a base webpage, adding additional Chart.js features (e.g. X and Y labels). In this way, XY Plotter can be a starting point for building more complex graphing interfaces fitting user-specific needs.<br>
+
 
 ## The program
 
@@ -42,9 +43,9 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 
 <br>In order to implement Chart.js, the following line must be added to the HTML document:
 
-<pre><code>
+```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-</code></pre>
+```
 
 <br>The rest of the JavaScript code is in the following &lt;script> element:
 
