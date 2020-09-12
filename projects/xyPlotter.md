@@ -27,7 +27,7 @@ With my webpage interface, a user can simply enter in XY pairs and click on "Mak
 <br>Here is a screenshot of XY Plotter with some data points. Note that users must enter each data point with X and Y values separated by a comma (e.g. X,Y). (See Figure 2).
 
 <p><img width="80%" src="../images/XYPlotter-2.png"></p><figcaption>Figure 2 - XY Plotter with example data. Bacteria have an exponential growth phase represented by the mathematical formula, n x 2^g. Thus, each bacterial cell is capable of generating 2 daughter cells asexually via binary fission. </figcaption>
-For more information on bacterial growth, see [Todars Growth of Bacterial Populations](http://textbookofbacteriology.net/growth_3.html)
+For more information on bacterial growth, see [Todar's Growth of Bacterial Populations](http://textbookofbacteriology.net/growth_3.html)
 
 <br>The default setting for Chart.js scatter plots is for onHover() to be on. This gives the scatter plot more interactivity with the user and this feature can be useful in demonstrations (i.e. when pointing out a specific data point) (See Figure 3).
 
