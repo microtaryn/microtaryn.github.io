@@ -21,6 +21,7 @@ Everyone takes out a loan at some point in their lives. Credit cards, in a sense
 
 <img width="80%"  src="../images/loan.png">
 Figure 1 - Loan Calculator showing sample input.
+
 ## The math
 
 The math behind the getMonths() function is based on the following:
