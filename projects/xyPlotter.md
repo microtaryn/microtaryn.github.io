@@ -42,4 +42,60 @@ In order to implement Chart.js, the following line must be added to the HTML doc
 ```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 ```
+The rest of the JavaScript code is in the following script element:
+```js
+<script type="text/javascript">
+            document.addEventListener('DOMContentLoaded',init);
+            //this function will clear all of the children of an element
+            function removeChildren(elem){
+                while(elem.childNodes.length > 0){
+                    elem.removeChild(elem.childNodes[0]);
+                }
+            }
+            //this function obtains the user input data and
+            //calls the doChart() function to make the chart
+            function getDataAndPlot() {
+                let data1 = [];
+                const label = document.getElementById("label");
+                let label1 = label.value.trim();
+                const myChart = document.getElementById("myChart");
+                removeChildren(myChart);
+                const textarea = document.getElementById("textarea");
+                let xydata = textarea.value.split("\n");
+                //console.log(xydata);
+                for (let i = 0; i < xydata.length; i++) {
+                    let splitValue = xydata[i].split(",");
+                    let row = {};
+                    row["x"] = Number(splitValue[0]);
+                    row["y"] = Number(splitValue[1]);
+                    data1.push(row);
+                }
+                //console.log(data1);
+                doChart(data1,label1);
+            }
+            function init() {
+                const run = document.getElementById("run");
+                run.addEventListener("click",getDataAndPlot);
+            }
+            //this doChart() function uses Chart.js to create a
+            //xy scatter chart
+            function doChart(data1,label1) {
+                let ctx = document.getElementById("myChart").getContext('2d');
+                let chart = new Chart(ctx, {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{
+                            label: label1,
+                            backgroundColor: 'blue',
+                            borderColor: 'blue',
+                            data: data1,
+                            fill: false,
+                            showLine: true
+                        }]
+                    },
+                    options: {}
+                });
+            }
+        </script>
+```
 
