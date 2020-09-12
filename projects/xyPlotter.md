@@ -29,7 +29,11 @@ With my webpage interface, a user can simply enter in ten XY pairs and click on 
 <p><img width="80%" src="../images/XYPlotter-2.png"></p><figcaption>Figure 2 - XY Plotter with example data. Bacteria have an exponential growth phase represented by the mathematical formula, n x 2^g. Thus, each bacterial cell is capable of generating 2 daughter cells asexually via binary fission. </figcaption>
 For more information on bacterial growth, see [Todar's: Growth of Bacterial Populations](http://textbookofbacteriology.net/growth_3.html)
 
-When used by a programmer, the program can easily be modified to
+<br>The default setting for Chart.js scatter plots is for onHover() to be on. This gives the scatter plot more interactivity with the user and this feature can be useful in demonstrations (i.e. when pointing out a specific data point) (See Figure 3).
+
+<p><img width="80%" src="../images/XYPlotter-3.png"></p><figcaption>Figure 3 - XY Plotter showing onHover() over data point.
+  
+<br>Programmers can also download my code (See links to code below) and modify the code to allow for more than 10 data points. Programmers can also use XY Plotter as a base webpage, adding additional Chart.js features. In this way, XY Plotter can be a starting point for building more complex graphing interfaces.
 This is my second project for ICS314 and my first attempt using Chart.js
 
 
