@@ -102,4 +102,11 @@ The rest of the JavaScript code is in the following &lt;script> element:
 ```js
 document.addEventListener('DOMContentLoaded',init);
 ```
+<br> The **init()** function gets a reference to the button with id = "run" and makes it so that clicking on that button causes the **getDataAndPlot()** function to be called.
+```js
+function init() {
+                const run = document.getElementById("run");
+                run.addEventListener("click",getDataAndPlot);
+            }
+```
 
