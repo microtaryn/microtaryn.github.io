@@ -131,4 +131,25 @@ function getDataAndPlot() {
    doChart(data1,label1);
 }
 ```
+The **removeChildren()** function will remove all the children from any HTML container element. It is called from **getDataAndPlot()** to clear out any previous chart.
 
+<br> The **doChart()** function is what actually creates the plot using the Chart.js library. The type is set to 'scatter' to create an XY scatter plot.
+```js
+function doChart(data1,label1) {
+   let ctx = document.getElementById("myChart").getContext('2d');
+   let chart = new Chart(ctx, {
+       type: 'scatter',
+       data: {
+           datasets: [{
+              label: label1,
+              backgroundColor: 'blue',
+              borderColor: 'blue',
+              data: data1,
+              fill: false,
+              showLine: true
+            }]
+       },
+       options: {}
+   });
+}
+```
