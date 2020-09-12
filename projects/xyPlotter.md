@@ -22,8 +22,7 @@ For my project, XY Plotter, I decided to simplify the learning curve of Chart.js
 With my webpage interface, a user can simply enter in ten XY pairs and click on "Make chart" to make a nice scatter plot. The user also has the option of labelling their data. Here is a screenshot of XY Plotter (sans data) (See Figure 1).
 
 <img width="500" src="../images/XYPlotter-1.png">
-<figcaption>Figure 1 - XY Plotter. Users must fill out text areas to generate a label and to enter in their data.</figcaption>
-<span class="caption">The [Amazon Rainforest](https://en.wikipedia.org/wiki/Amazon_rainforest) contains a multitude of species and is vital to the Earth's survival.</span>
+<figcaption>Figure 1 - XY Plotter. Users must fill out text areas to generate a label and to enter in their data.</figcaption><br>
 
 Here is a screenshot of XY Plotter with some data points. Note that users must enter each data point with X and Y values separated by a comma (e.g. X,Y).
 
