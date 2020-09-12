@@ -19,6 +19,8 @@ summary: Calculate the months it will take to pay off that loan. Do you really w
 
 Everyone takes out a loan at some point in their lives. Credit cards, in a sense, function like loans - where the amount that isn't paid off accrues interest. It would be best to pay off the credit card in its entirety - but we know that is not always doable and sometimes we pay just the minimum amount. But how much interest would that accumulate over time? And what is a reasonable monthly payment to avoid accumulating a large interest? This program is built for ICS314 and uses JavaScript to help answer these questions.
 
+<img width="80%"  src="../images/formula.png">
+Figure 1 - Loan Calculator showing sample input.
 ## The math
 
 The math behind the getMonths() function is based on the following:
@@ -37,7 +39,7 @@ function init() {
             }
 ```
 
-The <b>calcMonths()</b> function will take the values entered by the user for 1) the amount per month, 2) the total amount originally borrowed and 3) the annual interest rate. It calls the <b>getMonths()</b> function to perform the calculation involving the quotient of logs (illustrated in the math section. If the <b>getMonths()</b> function returns <b>NaN</b> or not a number, this means that the payment per month is so small that it would take forever to pay off the loan. This message is displayed to the user. Otherwise, if the months is a valid number, several sentences displaying the 1) number of months, 2) the total amount paid and 3) the total interest paid are shown on the screen.
+The <b>calcMonths()</b> function will take the values entered by the user for 1) the amount per month, 2) the total amount originally borrowed and 3) the annual interest rate. It calls the <b>getMonths()</b> function to perform the calculation involving the quotient of logs (illustrated in the math section. If the <b>getMonths()</b> function returns <b>NaN</b> or not a number, this means that the payment per month is so small that it would take forever to pay off the loan. This message is displayed to the user. Otherwise, if months is a valid number, several sentences displaying the 1) number of months, 2) the total amount paid and 3) the total interest paid are shown on the screen.
 
 ```js
 function calcMonths(){
