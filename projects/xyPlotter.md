@@ -37,21 +37,21 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 <br>Programmers can also download my code (See links to code below) and use XY Plotter as a base webpage, adding additional Chart.js features (e.g. X and Y labels). In this way, XY Plotter can be a starting point for building more complex graphing interfaces fitting user-specific needs.<br>
 
 
-<h3>The program</h3>
+## The program
 
 You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
 <br>In order to implement Chart.js, the following line must be added to the HTML document:
 
 
-<pre><code>
+```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-</code></pre>
+```
 
 
 <br>The rest of the JavaScript code is in the following &lt;script> element:
 
-<pre><code>
+```js
 <script type="text/javascript">
             document.addEventListener('DOMContentLoaded',init);
             //this function will clear all of the children of an element
@@ -105,24 +105,22 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
                 });
             }
         </script>
-</code></pre>
+```
 
 <br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, <b>init()</b> is called.
 
-<pre>
-<code>
+```js
 document.addEventListener('DOMContentLoaded',init);
-</code>
-</pre>
+```
 
 <br> The <b>init()</b> function gets a reference to the button with id="run" and makes it so that clicking on that button causes the <b>getDataAndPlot()</b> function to be called.
 
-<pre><code>
+```js
 function init() {
    const run = document.getElementById("run");
    run.addEventListener("click",getDataAndPlot);
 }
-</code></pre>
+```
 
 <br>The <b>getDataAndPlot()</b> function is used to create the data that Chart.js is going to plot.It obtains the data from input type="text" and the textarea to make the chart. The data from the textarea is split on a <b>\n</b> and a for() loop iterates over the data to create the array of data that will be plotted. This function calls the <b>removeChildren()</b> function to clear out the previous chart.
 
