@@ -51,7 +51,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 
 <br>The rest of the JavaScript code is in the following &lt;script> element:
 
-```js
+<pre><code>
 <script type="text/javascript">
             document.addEventListener('DOMContentLoaded',init);
             //this function will clear all of the children of an element
@@ -105,7 +105,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
                 });
             }
         </script>
-```
+</code></pre>
 
 <br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, <b>init()</b> is called.
 
