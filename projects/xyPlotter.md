@@ -42,7 +42,7 @@ In order to implement Chart.js, the following line must be added to the HTML doc
 ```js
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 ```
-The rest of the JavaScript code is in the following script element:
+The rest of the JavaScript code is in the following &lt;script> element:
 ```js
 <script type="text/javascript">
             document.addEventListener('DOMContentLoaded',init);
