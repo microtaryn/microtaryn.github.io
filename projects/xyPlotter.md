@@ -99,4 +99,7 @@ The rest of the JavaScript code is in the following &lt;script> element:
         </script>
 ```
 <br> We can breakdown the code as follows. The first line causes the **init()** function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, **init()** is called.
+```js
+document.addEventListener('DOMContentLoaded',init);
+```
 
