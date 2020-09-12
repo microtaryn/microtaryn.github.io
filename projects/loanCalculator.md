@@ -28,7 +28,7 @@ The math behind the getMonths() function is based on the following:
 ## The program
 You can find the code to this program in my [Projects - loanCalculator](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/loanCalculator) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/fLhv640k/)
 
-<p>We can breakdown the code as follows. The **init()** function links the clicking of the button with an id="calculate" to the calling of the **calcMonths()** function. </p>
+<p>We can breakdown the code as follows. The <b>init()</b> function links the clicking of the button with an id="calculate" to the calling of the **calcMonths()** function. </p>
 
 ```js
 function init() {
