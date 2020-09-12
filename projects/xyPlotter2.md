@@ -41,4 +41,5 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 
 You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
-<br>In order to implement Chart.js, the following line must be added to the HTML document:<br>
+
+## Breaking down the code
