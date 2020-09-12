@@ -109,9 +109,11 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
 
 <br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, <b>init()</b> is called.
 
-```js
+<pre>
+<code>
 document.addEventListener('DOMContentLoaded',init);
-```
+</code>
+</pre>
 
 <br> The <b>init()</b> function gets a reference to the button with id="run" and makes it so that clicking on that button causes the <b>getDataAndPlot()</b> function to be called.
 
