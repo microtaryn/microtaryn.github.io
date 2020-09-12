@@ -19,7 +19,7 @@ summary: Calculate the months it will take to pay off that loan. Do you really w
 
 Everyone takes out a loan at some point in their lives. Credit cards, in a sense, function like loans - where the amount that isn't paid off accrues interest. It would be best to pay off the credit card in its entirety - but we know that is not always doable and sometimes we pay just the minimum amount. But how much interest would that accumulate over time? And what is a reasonable monthly payment to avoid accumulating a large interest? This program is built for ICS314 and uses JavaScript to help answer these questions.<br>
 
-<img width="80%"  src="../images/loan.png">
+<p><img width="80%"  src="../images/loan.png"></p>
 Figure 1 - Loan Calculator showing sample input.
 
 ## The math
