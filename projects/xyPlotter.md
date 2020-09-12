@@ -107,7 +107,7 @@ You can find the code to this program in my [Projects - XYPlotter](https://githu
         </script>
 ```
 
-<br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the &lt;body> is rendered, <b>init()</b> is called.
+<br> We can breakdown the code as follows. The first line causes the <b>init()</b> function to be called when the DOM Content has finished loading. This means that after all of the HTML markup in the <body> is rendered, <b>init()</b> is called.
 
 ```js
 document.addEventListener('DOMContentLoaded',init);
