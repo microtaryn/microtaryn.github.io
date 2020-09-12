@@ -42,4 +42,4 @@ For more information on bacterial growth, see [Todar's: Growth of Bacterial Popu
 You can find the code to this program in my [Projects - XYPlotter](https://github.com/microtaryn/microtaryn.github.io/tree/master/projects/XYPlotter) folder or run it yourself in [JFiddle](https://jsfiddle.net/butterfreeDay/01tzvw2L/)
 
 
-## Breaking down the code
+### Breaking down the code
